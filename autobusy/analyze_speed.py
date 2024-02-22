@@ -100,4 +100,3 @@ def speeding_places_dict(how_many_where, count_min, speed_min):
         if how_many_where[where][0] > count_min and how_many_where[where][1] > speed_min:
             output[where] = how_many_where[where]
     return output
-# sorted(speeding_rounded)
